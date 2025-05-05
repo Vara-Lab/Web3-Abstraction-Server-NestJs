@@ -7,7 +7,6 @@ import {
     SPONSOR_NAME 
 } from "../consts.js";
 import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
-import { Subject } from "rxjs";
 import { SailsCalls } from 'sailscalls';
 
 
